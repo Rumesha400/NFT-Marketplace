@@ -1,0 +1,219 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+@keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .top-animation {
+    animation: slideIn 1s ease forwards;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+  }
+
+
+.video-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Adjust text color */
+    
+
+  }
+
+
+.content {
+    margin-left: 270px;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* .filter {
+    margin-bottom: 20px;
+}
+
+.filter label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.filter select {
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+*/
+.nft-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+} 
+
+  
+.nft-card {
+   
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+
+}
+
+.nft-card:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+
+
+
+.contentpfp {
+    margin-left: 270px;
+    padding: 20px;
+}
+.pfp-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+  
+.pfp-card {
+   
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+
+}
+
+.pfp-card:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+
+
+
+
+footer {
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+    font-size: 16px;
+}
+
+footer p {
+    margin: 0;
+}
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .nft-card2 {
+    flex: 0 0 auto;
+    width: calc(100% / 4 - 20px); /* Adjust card width and margin as needed */
+    margin: 0 10px; /* Adjust card margin as needed */
+    background-color: rgba(173, 245, 245, 0.925);
+  }
+  
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(129, 207, 238);
+  }
+  
+  .prev {
+    padding-left: 0%;
+  }
+  
+  .next {
+    text-align: right;
+    padding-right:0%;
+  }
+
+
+  .nav1 {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    width: 100%;
+    z-index: 999;
+    background-color: transparent; /* Make navbar transparent */
+  }
+  
+  
+  .nav1 a {
+    color: white; /* Change link color */
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Add transition for smooth color change */
+  }
+  
+  .nav1 a:hover {
+    color: #ffa500; /* Change link color on hover */
+  }
+  
+  /* Crazy animation for buttons */
+  .nav1 a {
+    animation: crazyButton 0.6s infinite alternate;
+  }
+  
+  @keyframes crazyButton {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+

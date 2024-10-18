@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Marketplace</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Single+Day&family=Workbench&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- <nav class="nav1">
+        <a href="" id="Home" >Home</a>
+        <a href="" id="pfp" >PFP</a>
+        <a href="#" id="art" >Art</a>
+        <a href="#" id="gaming" >Gaming</a>
+    </nav> -->
+    <!-- For navigation bar = -->
+    <div class="fixed-on-scroll"  data-bs-spy="scroll">
+        <nav class="navbar navbar-expand-xl navbar-light bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#linktocollap"> 
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navmain" id="linktocollap">
+                <ul class="navbar-nav nav-tabs justify-content-between w-100">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#section1" class="nav-link">PFP</a></li>
+                    <li class="nav-item"><a href="#section2" class="nav-link">Art</a></li>
+                    <li class="nav-item"><a href="#section3" class="nav-link">Gaming</a></li>
+                 
+                </ul>
+            </div>
+        </div>
+        </nav>
+    </div>
+
+    <div class="top-animation">
+        <div class="video-text">
+            <h2>Welcome to NFT World</h2>
+             
+           </div>
+        <video autoplay muted loop class="w-100" >
+           
+          <source src="/img/Otherside_Trailer(720p).mp4" type="video/mp4">
+        </video>
+      
+    
+      </div>
+
+    <div class="content">
+        <h2>NFTs</h2>
+        <!-- <div class="filter">
+            <label for="volume">Volume:</label>
+            <select name="volume" id="volume">
+                <option value="all">All</option>
+                <option value="low">Low</option>
+                <option value="medium">Medium</option> 
+                <option value="high">High</option>
+            </select>
+            <label for="price">Price:</label>
+            <select name="price" id="price">
+                <option value="all">All</option>
+                <option value="cheap">Cheap</option>
+                <option value="moderate">Moderate</option>
+                <option value="expensive">Expensive</option>
+            </select>
+        </div> -->
+        
+
+        <div class="nft-list" id="nft-list">
+            
+                <!-- NFT cards will be dynamically generated here -->
+               <a href="nft.html"><div class="nft-card">
+                    <img src="/img/img-01.jpg" alt="NFT Image" style="left: 0%;">
+                    <div class="card-content">
+                        <h3>NFT Title</h3>
+                        <p>Description of the NFT goes here.</p>
+                        <p>Price: $100</p>
+                    </div>
+                </div>
+               </a>
+               <div class="nft-card">
+                <img src="/img/img-02.jpg" alt="NFT Image" style="left: 0%;">
+                <div class="card-content">
+                    <h3>NFT Title</h3>
+                    <p>Description of the NFT goes here.</p>
+                    <p>Price: $100</p>
+                </div>
+            </div>
+            <div class="nft-card">
+                <img src="/img/img-03.jpg" alt="NFT Image" style="left: 0%;">
+                <div class="card-content">
+                    <h3>NFT Title</h3>
+                    <p>Description of the NFT goes here.</p>
+                    <p>Price: $100</p>
+                </div>
+            </div>
+            <div class="nft-card">
+                <img src="/img/img-04.jpg" alt="NFT Image" style="left: 0%;">
+                <div class="card-content">
+                    <h3>NFT Title</h3>
+                    <p>Description of the NFT goes here.</p>
+                    <p>Price: $100</p>
+                </div>
+            </div>
+            <div class="nft-card">
+                <img src="/img/img-05.jpg" alt="NFT Image" style="left: 0%;">
+                <div class="card-content">
+                    <h3>NFT Title</h3>
+                    <p>Description of the NFT goes here.</p>
+                    <p>Price: $100</p>
+                </div>
+            </div>
+            <div class="nft-card">
+                <img src="/img/img-06.jpg" alt="NFT Image" style="left: 0%;">
+                <div class="card-content">
+                    <h3>NFT Title</h3>
+                    <p>Description of the NFT goes here.</p>
+                    <p>Price: $100</p>
+                </div>
+            </div>
+            <div class="nft-card">
+                <img src="/img/img-07.jpg" alt="NFT Image" style="left: 0%;">
+                <div class="card-content">
+                    <h3>NFT Title</h3>
+                    <p>Description of the NFT goes here.</p>
+                    <p>Price: $100</p>
+                </div>
+            </div>
+            <div class="nft-card">
+                <img src="/img/img-08.jpg" alt="NFT Image" style="left: 0%;">
+                <div class="card-content">
+                    <h3>NFT Title</h3>
+                    <p>Description of the NFT goes here.</p>
+                    <p>Price: $100</p>
+                </div>
+            </div>
+            <div class="nft-card">
+                <img src="/img/img-09.jpg" alt="NFT Image" style="left: 0%;">
+                <div class="card-content">
+                    <h3>NFT Title</h3>
+                    <p>Description of the NFT goes here.</p>
+                    <p>Price: $100</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="carousel-container">
+        <div class="carousel">
+          <div class="nft-card2"><img src="/img/ava-01.png" alt=""></div>
+          <div class="nft-card2"><img src="/img/ava-02.png" alt=""></div>
+          <div class="nft-card2"><img src="/img/ava-03.png" alt=""></div>
+          <div class="nft-card2"><img src="/img/ava-04.png" alt=""></div>
+          <div class="nft-card2"><img src="/img/ava-05.png" alt=""></div>
+          <div class="nft-card2"><img src="/img/ava-06.png" alt=""></div>
+        </div>
+        <button class="prev" onclick="prevSlide()">❮</button>
+        
+        <button class="next" onclick="nextSlide()">❯</button>
+      </div>
+
+
+      <div class="content" id="#section1">
+        <h2>PFP</h2>
+              <div class="nft-list" id="nft-list">
+            
+                <!-- NFT cards will be dynamically generated here -->
+               <a href="nft.html"><div class="nft-card">
+                    <img src="/img/img-01.jpg" alt="NFT Image" style="left: 0%;">
+                    <div class="card-content">
+                        <h3>NFT Title</h3>
+                        <p>Description of the NFT goes here.</p>
+                        <p>Price: $100</p>
+                    </div>
+                </div>
+               </a>
+               <div class="nft-card">
+                <img src="/img/img-02.jpg" alt="NFT Image" style="left: 0%;">
+                <div class="card-content">
+                    <h3>NFT Title</h3>
+                    <p>Description of the NFT goes here.</p>
+                    <p>Price: $100</p>
+                </div>
+            </div>
+            <div class="nft-card">
+                <img src="/img/img-03.jpg" alt="NFT Image" style="left: 0%;">
+                <div class="card-content">
+                    <h3>NFT Title</h3>
+                    <p>Description of the NFT goes here.</p>
+                    <p>Price: $100</p>
+                </div>
+            </div>
+            <div class="nft-card">
+                <img src="/img/img-04.jpg" alt="NFT Image" style="left: 0%;">
+                <div class="card-content">
+                    <h3>NFT Title</h3>
+                    <p>Description of the NFT goes here.</p>
+                    <p>Price: $100</p>
+                </div>
+            </div>
+            <div class="nft-card">
+                <img src="/img/img-05.jpg" alt="NFT Image" style="left: 0%;">
+                <div class="card-content">
+                    <h3>NFT Title</h3>
+                    <p>Description of the NFT goes here.</p>
+                    <p>Price: $100</p>
+                </div>
+            </div>
+            <div class="nft-card">
+                <img src="/img/img-06.jpg" alt="NFT Image" style="left: 0%;">
+                <div class="card-content">
+                    <h3>NFT Title</h3>
+                    <p>Description of the NFT goes here.</p>
+                    <p>Price: $100</p>
+                </div>
+            </div>
+            <div class="nft-card">
+                <img src="/img/img-07.jpg" alt="NFT Image" style="left: 0%;">
+                <div class="card-content">
+                    <h3>NFT Title</h3>
+                    <p>Description of the NFT goes here.</p>
+                    <p>Price: $100</p>
+                </div>
+            </div>
+            <div class="nft-card">
+                <img src="/img/img-08.jpg" alt="NFT Image" style="left: 0%;">
+                <div class="card-content">
+                    <h3>NFT Title</h3>
+                    <p>Description of the NFT goes here.</p>
+                    <p>Price: $100</p>
+                </div>
+            </div>
+            <div class="nft-card">
+                <img src="/img/img-09.jpg" alt="NFT Image" style="left: 0%;">
+                <div class="card-content">
+                    <h3>NFT Title</h3>
+                    <p>Description of the NFT goes here.</p>
+                    <p>Price: $100</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content" id="#section2">
+        <h2>Art</h2>
+              <div class="nft-list" id="nft-list">
+            
+                <!-- NFT cards will be dynamically generated here -->
+               <a href="nft.html"><div class="nft-card">
+                    <img src="/img/img-01.jpg" alt="NFT Image" style="left: 0%;">
+                    <div class="card-content">
+                        <h3>NFT Title</h3>
+                        <p>Description of the NFT goes here.</p>
+                        <p>Price: $100</p>
+                    </div>
+                </div>
+               </a>
+               <div class="nft-card">
+                <img src="/img/img-02.jpg" alt="NFT Image" style="left: 0%;">
+                <div class="card-content">
+                    <h3>NFT Title</h3>
+                    <p>Description of the NFT goes here.</p>
+                    <p>Price: $100</p>
+                </div>
+            </div>
+            <div class="nft-card">
+                <img src="/img/img-03.jpg" alt="NFT Image" style="left: 0%;">
+                <div class="card-content">
+                    <h3>NFT Title</h3>
+                    <p>Description of the NFT goes here.</p>
+                    <p>Price: $100</p>
+                </div>
+            </div>
+            <div class="nft-card">
+                <img src="/img/img-04.jpg" alt="NFT Image" style="left: 0%;">
+                <div class="card-content">
+                    <h3>NFT Title</h3>
+                    <p>Description of the NFT goes here.</p>
+                    <p>Price: $100</p>
+                </div>
+            </div>
+            <div class="nft-card">
+                <img src="/img/img-05.jpg" alt="NFT Image" style="left: 0%;">
+                <div class="card-content">
+                    <h3>NFT Title</h3>
+                    <p>Description of the NFT goes here.</p>
+                    <p>Price: $100</p>
+                </div>
+            </div>
+            <div class="nft-card">
+                <img src="/img/img-06.jpg" alt="NFT Image" style="left: 0%;">
+                <div class="card-content">
+                    <h3>NFT Title</h3>
+                    <p>Description of the NFT goes here.</p>
+                    <p>Price: $100</p>
+                </div>
+            </div>
+            <div class="nft-card">
+                <img src="/img/img-07.jpg" alt="NFT Image" style="left: 0%;">
+                <div class="card-content">
+                    <h3>NFT Title</h3>
+                    <p>Description of the NFT goes here.</p>
+                    <p>Price: $100</p>
+                </div>
+            </div>
+            <div class="nft-card">
+                <img src="/img/img-08.jpg" alt="NFT Image" style="left: 0%;">
+                <div class="card-content">
+                    <h3>NFT Title</h3>
+                    <p>Description of the NFT goes here.</p>
+                    <p>Price: $100</p>
+                </div>
+            </div>
+            <div class="nft-card">
+                <img src="/img/img-09.jpg" alt="NFT Image" style="left: 0%;">
+                <div class="card-content">
+                    <h3>NFT Title</h3>
+                    <p>Description of the NFT goes here.</p>
+                    <p>Price: $100</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content" id="#section3">
+        <h2>Gaming</h2>
+              <div class="nft-list" id="nft-list">
+            
+                <!-- NFT cards will be dynamically generated here -->
+               <a href="nft.html"><div class="nft-card">
+                    <img src="/img/img-01.jpg" alt="NFT Image" style="left: 0%;">
+                    <div class="card-content">
+                        <h3>NFT Title</h3>
+                        <p>Description of the NFT goes here.</p>
+                        <p>Price: $100</p>
+                    </div>
+                </div>
+               </a>
+               <div class="nft-card">
+                <img src="/img/img-02.jpg" alt="NFT Image" style="left: 0%;">
+                <div class="card-content">
+                    <h3>NFT Title</h3>
+                    <p>Description of the NFT goes here.</p>
+                    <p>Price: $100</p>
+                </div>
+            </div>
+            <div class="nft-card">
+                <img src="/img/img-03.jpg" alt="NFT Image" style="left: 0%;">
+                <div class="card-content">
+                    <h3>NFT Title</h3>
+                    <p>Description of the NFT goes here.</p>
+                    <p>Price: $100</p>
+                </div>
+            </div>
+            <div class="nft-card">
+                <img src="/img/img-04.jpg" alt="NFT Image" style="left: 0%;">
+                <div class="card-content">
+                    <h3>NFT Title</h3>
+                    <p>Description of the NFT goes here.</p>
+                    <p>Price: $100</p>
+                </div>
+            </div>
+            <div class="nft-card">
+                <img src="/img/img-05.jpg" alt="NFT Image" style="left: 0%;">
+                <div class="card-content">
+                    <h3>NFT Title</h3>
+                    <p>Description of the NFT goes here.</p>
+                    <p>Price: $100</p>
+                </div>
+            </div>
+            <div class="nft-card">
+                <img src="/img/img-06.jpg" alt="NFT Image" style="left: 0%;">
+                <div class="card-content">
+                    <h3>NFT Title</h3>
+                    <p>Description of the NFT goes here.</p>
+                    <p>Price: $100</p>
+                </div>
+            </div>
+            <div class="nft-card">
+                <img src="/img/img-07.jpg" alt="NFT Image" style="left: 0%;">
+                <div class="card-content">
+                    <h3>NFT Title</h3>
+                    <p>Description of the NFT goes here.</p>
+                    <p>Price: $100</p>
+                </div>
+            </div>
+            <div class="nft-card">
+                <img src="/img/img-08.jpg" alt="NFT Image" style="left: 0%;">
+                <div class="card-content">
+                    <h3>NFT Title</h3>
+                    <p>Description of the NFT goes here.</p>
+                    <p>Price: $100</p>
+                </div>
+            </div>
+            <div class="nft-card">
+                <img src="/img/img-09.jpg" alt="NFT Image" style="left: 0%;">
+                <div class="card-content">
+                    <h3>NFT Title</h3>
+                    <p>Description of the NFT goes here.</p>
+                    <p>Price: $100</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 NFT Marketplace. All rights reserved.</p>
+    </footer>
+
+    <script src="/js/index.js"></script>
+</body>
+</html>
